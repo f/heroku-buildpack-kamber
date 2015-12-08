@@ -1,4 +1,4 @@
-# Crystal Heroku Buildpack
+# Kamber Heroku Buildpack
 
 You can create an app in Heroku with Crystal's buildpack by running the
 following command:
