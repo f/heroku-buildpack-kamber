@@ -15,7 +15,7 @@ curl -sL $CRYSTAL_URL | tar xz -C $CRYSTAL_DIR --strip-component=1
 # Build the project
 cd $BUILD_DIR
 
-if [ -f shards.yml ]; then
+if [ -f shard.yml ]; then
   echo "-----> Installing Dependencies"
   $CRYSTAL_DIR/bin/shards install
 fi
