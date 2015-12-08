@@ -4,7 +4,7 @@ You can create an app in Heroku with Crystal's buildpack by running the
 following command:
 
 ```bash
-$ heroku create myapp --buildpack https://github.com/zamith/heroku-buildpack-crystal.git
+$ heroku create myblog --buildpack https://github.com/f/heroku-buildpack-kamber.git
 ```
 
 In order for the buildpack to work properly you should have a `Projectfile`
