@@ -17,7 +17,7 @@ cd $BUILD_DIR
 
 if [ -f shard.yml ]; then
   echo "-----> Installing Dependencies"
-  $CRYSTAL_DIR/bin/shards install
+  $CRYSTAL_DIR/embedded/bin/shards install
 fi
 
 echo "-----> Compiling Kamber"
